@@ -1,0 +1,177 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    width:100%;
+    min-height:100%;
+    background:white;
+}
+header{
+    position:fixed;
+}
+.menu{
+    position:fixed;
+    background-color:tomato;
+    width:100%;
+    height:45px;
+    display:flex;
+    justify-content:space-between;
+}
+.logo{
+    width:80px;
+    height:100%;
+    background:white;
+    text-align:center;
+    margin:12px;
+    margin-top:0;
+    position:relative;
+    padding-top:15px;
+    border-radius:10px 0px 10px 0px;
+    font-weight:bold;
+    font-family:"Ubuntu";
+    display:flex;
+}
+.logo::before{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(255,255,255,0.5);
+    transform:rotate(30deg);
+}
+.main-menu{
+    list-style:none;
+    display:flex;
+    position:relative;
+    width:90%;
+    height:20px;
+    background-color:tomato;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.main-menu .item{
+    position:relative;
+    width:20%;
+    height:20px;
+    margin-right:10px;
+    display:inline-block;
+    text-align:left;
+    padding-top:2.5px;
+    font-weight:bold;
+    border:1px solid #ff00ac;
+    background-color:white;
+    padding:2px;
+    border-radius:.25em;
+    text-align:center;
+}
+.drop-list{
+    display:none;
+}
+.drop-list-s{
+    display:absolute;
+    background:tomato;
+    width:200%;
+    list-style:none;
+    text-align:left;
+    border-color:#FF1C00;
+    border-radius:.25em;
+}
+.dropper-items{
+    height:20px;
+    padding-top:2.5px;
+    font-weight:bold;
+    border:1px solid #ff00ac;
+    border-radius:.25em;
+    background-color:white;
+    padding:2px;
+    margin:.1em;
+}
+.dropper-arrow{
+    color:white;
+    display:inline;
+}
+
+main section {
+    margin-bottom:30px;
+}
+
+.PI{
+    width:90%;
+    margin:0 5% 0 5%;
+    height:350px;
+    padding:20px 5% 0% 5%;
+    border:none;
+    border-radius:5px;
+    background:#eee;
+}
+.PIImage{
+    width:100%;
+    height:220px;
+    background:#00acd7;
+    border-radius:5px;
+}
+.PIIField{
+    background:#acd700;
+    padding:5px;
+}
+.PIPrice{
+    color:darkgreen;
+    font-weight:700;
+}
+
+.m70d{
+    height:70px;
+}
+.pgFooter{
+    width:100%;
+    height:100px;
+    background-color:tomato;
+    position:relative;
+    margin-top:900px;
+}
+.footer-links{
+    width:100%;
+    height:70px;
+    background-color:red;
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.footer-links li{
+    display:inline-block;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:7px;
+    width:100px;
+    margin:21px 0px 10px 10px;
+    text-align:center;
+    height:30px;
+    position:static;
+    background:#ffffff;
+    border-radius:1.5em;
+}
+.footer-links li::before{
+    position:absolute;
+    display:inline-block;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:7px;
+    width:100px;
+    margin:30px 0px 15px 10px;
+    text-align:center;
+    height:30px;
+    position:static;
+    background:#000;
+    border-radius:1.5em;
+}
+.copyr{
+    width:100%;
+    height:30px;
+    background-color:tomato;
+    text-align:center;
+    padding:6.25px;
+    color:white;
+    font-weight:bold;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Google</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script type="module"  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script><!--
+    &#34
+    &#60
+    &#61
+    &#62-->
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo"><span>Lojas Cem</span></div>
+            <ul class="main-menu">
+                <li class="item">Sobre</li>
+                <li class="item dropper" onclick="dropper02(arrow02,drop02)"><span>Serviços<ion-icon class="dropper-arrow" name="chevron-down-sharp" alt="" id="arrow02"></ion-icon></span>
+                   <ul class="drop-list" id="drop02">
+                        <li class="dropper-items">Limpeza de Vidros</li>
+                        <li class="dropper-items">Limpeza de Calha</li>
+                        <li class="dropper-items">Limpeza de Telhas</li>
+                        <li class="dropper-items">Faxina Geral</li>
+                    </ul></li>
+                <li class="item">Blog</li>
+                <li class="item dropper" onclick="dropper01(arrow01,drop01)"><span>Franquias<ion-icon class="dropper-arrow" name="chevron-down-sharp" alt="" id="arrow01"></ion-icon></span>
+                   <ul class="drop-list" id="drop01">
+                        <li class="dropper-items">Gramacho</li>
+                        <li class="dropper-items">Saracuruna</li>
+                        <li class="dropper-items">Belford Roxo</li>
+                        <li class="dropper-items">Corte 8</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="m70d"></div>
+    <main>
+        <section>
+            <fieldset class="PI">
+                <div class="PIImage">img</div>
+                <div class="PIText">
+                    <article class="PIIField">
+                        <h2 class="PITitle">Produto</h2>
+                        <br/>
+                        <p class="PIDescription">Descrição &#127760</p>
+                        <br/>
+                        <span id="price" class="PIPrice">R$ 600,00</span>
+                    </article>
+                </div>
+            </fieldset>
+        </section>
+    </main>
+    <footer class="pgFotter">
+        <ul class="footer-links">
+            <li class="">sobre</li>
+            <li class="">serviços</li>
+            <li class="">blog</li>
+        </ul>
+        <div class="copyr">Lojas Cem © Copyright 2023</div>
+    </footer>
+    <script type="text/javascript" src="src/js/script.js"></script>
+</body>
+</html>
